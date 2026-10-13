@@ -1,3 +1,7 @@
 [shell.keyboard_layout.custom_labels]
 "English (US)" = "EN"
 "Persian" = "FA"
+
+[theme]
+mode = "dark"
+shell_mode = "dark"
