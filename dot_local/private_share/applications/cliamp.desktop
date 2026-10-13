@@ -1,9 +1,11 @@
 [Desktop Entry]
-Version=2.3.0
+Name=cliamp
+GenericName=Music Player
+Comment=A retro terminal music player inspired by Winamp 2.x
+Exec=/home/nedamani/.local/bin/cliamp
+Icon=cliamp
+Terminal=true
 Type=Application
-Name=Cliamp
-Comment=Terminal Music Player
-Exec=/home/nedamani/.config/scripts/cliamp-open.sh
-Terminal=false
-Categories=AudioVideo;Audio;Player;
-StartupNotify=true
+Categories=Audio;Music;Player;AudioVideo;ConsoleOnly;
+Keywords=music;audio;player;terminal;tui;winamp;radio;podcast;
+StartupNotify=false
