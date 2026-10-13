@@ -1,0 +1,10 @@
+[theme.templates]
+enable_builtin_templates = true
+builtin_ids = ["kitty"]
+
+enable_community_templates = true
+community_ids = []
+
+[theme.templates.user.fish_prompt_colors]
+input_path = "$XDG_CONFIG_HOME/noctalia/templates/fish-prompt-colors.fish"
+output_path = "$XDG_CONFIG_HOME/fish/noctalia-prompt-colors.fish"

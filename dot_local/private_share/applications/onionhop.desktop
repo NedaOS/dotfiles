@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=3.8.6
+Type=Application
+Name=OnionHop
+GenericName=Tor Connection Manager
+Comment=Launch OnionHop CLI
+Exec=/home/nedamani/.local/opt/onionhop/OnionHopV3.Cli
+Terminal=true
+Categories=Network;Security;
+StartupNotify=false

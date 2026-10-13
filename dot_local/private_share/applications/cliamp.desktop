@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=2.3.0
+Type=Application
+Name=Cliamp
+Comment=Terminal Music Player
+Exec=/home/nedamani/.config/scripts/cliamp-open.sh
+Terminal=false
+Categories=AudioVideo;Audio;Player;
+StartupNotify=true

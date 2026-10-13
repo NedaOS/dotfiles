@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=26.9.1
+Name=Yazi
+Comment=Terminal File Manager
+Type=Application
+Exec=/home/nedamani/.config/scripts/yazi-open.sh %f
+Terminal=false
+MimeType=inode/directory;
+NoDisplay=false
+Categories=System;FileManager;

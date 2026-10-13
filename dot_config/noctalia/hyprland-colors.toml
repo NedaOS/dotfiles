@@ -1,0 +1,4 @@
+[theme.templates.user.hyprland_lua_colors]
+input_path = "$XDG_CONFIG_HOME/noctalia/templates/hyprland-colors.lua"
+output_path = "$XDG_CONFIG_HOME/hypr/config/colors.lua"
+post_hook = "hyprctl reload"

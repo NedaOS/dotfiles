@@ -1,0 +1,13 @@
+[[plugin.prepend_fetchers]]
+url   = "*/"
+run   = "git"
+group = "git"
+
+[opener]
+vscode = [
+    { run = 'code --new-window %s', desc = "Open with VS Code", orphan = true, for = "unix" },
+]
+
+[[open.rules]]
+url = "*/"
+use = "vscode"
