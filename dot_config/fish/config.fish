@@ -68,15 +68,6 @@ function nvim
     env NVIM_APPNAME=nvim-ryoku command nvim $argv
 end
 
-# Ansible command
-function ansible
-    if test "$argv[1]" = cd
-        builtin cd ~/.local/share/ansible
-    else
-        command ansible $argv
-    end
-end
-
 # Yazi command
 function yazi
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
