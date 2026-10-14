@@ -3,7 +3,7 @@
   "logo": {
     "type": "kitty-direct",
     "source": "~/.config/fastfetch/fedora.png",
-    "width": 18,
+    "width": 14,
     "padding": {
       "right": 3
     }
