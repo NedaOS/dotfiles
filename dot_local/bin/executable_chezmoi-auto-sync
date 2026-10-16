@@ -47,3 +47,9 @@ if ! git -C "$SOURCE_DIR" diff --cached --quiet; then
 else
   log "No changes to commit."
 fi
+
+# Push changes only when explicitly requested.
+if [[ "${1:-}" == "push" ]]; then
+  log "Pushing changes to remote..."
+  git -C "$SOURCE_DIR" push
+fi
