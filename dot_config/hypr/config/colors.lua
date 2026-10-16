@@ -1,12 +1,12 @@
 -- Generated from the active Noctalia wallpaper palette.
 return {
-	background = "rgba(101414ff)",
-	surface = "rgba(101414ff)",
-	primary = "rgba(78d6cfff)",
-	on_primary = "rgba(003734ff)",
-	primary_container = "rgba(3c9f99ff)",
-	secondary = "rgba(aacdcaff)",
-	tertiary = "rgba(d9b9ffff)",
-	outline = "rgba(879391ff)",
+	background = "rgba(131313ff)",
+	surface = "rgba(131313ff)",
+	primary = "rgba(c0c8c6ff)",
+	on_primary = "rgba(2a3231ff)",
+	primary_container = "rgba(0b1312ff)",
+	secondary = "rgba(c5c7c6ff)",
+	tertiary = "rgba(c7c5ceff)",
+	outline = "rgba(8d9290ff)",
 	shadow = "rgba(000000ff)",
 }
