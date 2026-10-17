@@ -12,14 +12,15 @@ hl.config({
         },
         resize_on_border = true,
         allow_tearing    = false,
-        layout           = "dwindle",
+        layout           = "scrolling",
+        -- layout           = "dwindle",
     },
 
     decoration = {
         rounding         = 10,
         rounding_power   = 2,
         active_opacity   = 1.0,
-        inactive_opacity = 0.9,
+        inactive_opacity = 0.6,
         fullscreen_opacity = 1.0,
 
         shadow = {
